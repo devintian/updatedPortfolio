@@ -2,17 +2,25 @@ html{
     height: 100%;
 }
 
-
 body{
-    margin: 0;
-    
+    margin: 0;   
     /* position: relative; */
-    
-    
     height: 100%;
-    background-image: url(../images/background.png);
-    
-    
+    background-image: url(../images/background.png); 
+}
+
+a{
+    color:rgb(97, 95, 95);
+    text-decoration: none;
+}
+
+.projectname a{
+    color:white;
+}
+
+.projectname a:hover{
+    color:rgb(194, 189, 189);
+    text-decoration: none;
 }
 
 .btn-primary{
@@ -121,7 +129,7 @@ span{
     margin-bottom:10px;
     /* width:50%; */
     width: 100%;
-    height:auto;
+    height: 100%;
 }
 
 .image,.card{
@@ -295,11 +303,10 @@ span{
 
 @media screen and (min-width:980px){
     .section-container{
-        width: 700px;
+        width: 1000px;
         background-color: white;
         border: solid thin black;
-        padding: 20px;
-        
+        padding: 20px;   
     }
     /* .img-responsive{
         width: 250px;
